@@ -7,11 +7,12 @@ import NextLink from 'next/link'
 const Page: NextPage = () => {
   return (
     <div>
-      <Meta title="My Booklogger" isIndex />
-      <h1>My Booklogger</h1>
-      <p>My Booklogger のサポートページです。</p>
+      <Meta title="プライバシーポリシー | My Booklogger" />
+      <h1>プライバシーポリシー</h1>
+      <h2>利用者個人情報の取得と利用</h2>
+      <p>本アプリが利用者の個人情報を取得、または利用することはありません。</p>
       <p>
-        <NextLink href="/privacy">プライバシーポリシー</NextLink>
+        <NextLink href="/">もどる</NextLink>
       </p>
     </div>
   )
